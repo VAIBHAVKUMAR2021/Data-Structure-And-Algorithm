@@ -2,20 +2,39 @@
 using namespace std;
 
 int main(){
-    int n= 6;
+  int n= 6;
     for (int row=0;row<n;row=row+1){
-        for(col=0;col=n-row-1;col=col+1){
+      //space
+        for(int col=0;col<n-6+row;col=col+1){
               cout<<" ";
         }
-        for(col=0; col=row+1;row=row+1){
-          if(col==0 || col=row+1-1){
+        //star
+        for(int col=0; col<row+1;col=col+1){
+          if(col==0 || col == row+1-1){
             cout<<"* ";
           }else{
-            cout<<" ";
+            cout<<"  ";
           }
         }
         cout<<endl;
     }
+  //hollow pyramid
+    // int n= 6;
+    // for (int row=0;row<n;row=row+1){
+    //   //space
+    //     for(int col=0;col<n-row-1;col=col+1){
+    //           cout<<" ";
+    //     }
+    //     //star
+    //     for(int col=0; col<row+1;col=col+1){
+    //       if(col==0 || col == row+1-1){
+    //         cout<<"* ";
+    //       }else{
+    //         cout<<"  ";
+    //       }
+    //     }
+    //     cout<<endl;
+    // }
     //diamond pattern
     // int num = 8;
     // int n=num/2;
