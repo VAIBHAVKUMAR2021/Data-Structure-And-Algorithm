@@ -2,22 +2,26 @@
 using namespace std;
 
 int main(){
-  int n= 6;
-    for (int row=0;row<n;row=row+1){
-      //space
-        for(int col=0;col<n-6+row;col=col+1){
-              cout<<" ";
-        }
-        //star
-        for(int col=0; col<row+1;col=col+1){
-          if(col==0 || col == row+1-1){
-            cout<<"* ";
-          }else{
-            cout<<"  ";
-          }
-        }
-        cout<<endl;
-    }
+  
+  //inverted hollow pyramid
+  // int n= 6;
+  //   for (int row=0;row<n;row=row+1){
+  //     //space
+  //       for(int col=0;col<row;col=col+1){
+  //             cout<<"  ";
+  //       }
+  //       for (int col=0; col<2*n-2*row-1; col=col+1)
+  //       {
+  //         // cout<<col << " " << ((n-row-1)*2);
+          
+  //         if(col==0||col==((n-row-1)*2)){
+  //           cout <<"* ";
+  //         }else{
+  //         cout<<"  ";
+  //       }
+  //     }
+  //       cout<< endl;
+  //   }
   //hollow pyramid
     // int n= 6;
     // for (int row=0;row<n;row=row+1){
