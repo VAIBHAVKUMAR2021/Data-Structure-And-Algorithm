@@ -2,6 +2,35 @@
 using namespace std;
 
 int main(){
+  //hollow diamond
+  // int n=6;
+  // for(int row =0;row<n;row =row+1){
+  //       for(int col = 0; col<n-row-1;col=col+1){
+  //         cout<<" ";
+  //       }
+  //       for (int col=0;col<row+1;col=col+1){
+  //         if (col ==0||col==row +1-1){
+  //           cout<<"* ";
+  //         }else{
+  //           cout<< "  ";
+  //         }
+  //       }
+  //      cout<< endl;
+  // }
+  // for(int row=0; row<n; row=row+1){
+  //   for(int col=0; col<row;col=col+1){
+  //     cout<< " ";
+  //   }
+  //   int TotalCol =n-row;
+  //   for(int col=0; col<TotalCol;col=col+1){
+  //     if(col==0 || col==TotalCol-1){
+  //       cout<< "* ";
+  //     }else{
+  //     cout<< "  ";
+  //   }
+  // }
+  //   cout<< endl;
+  // }
   
   //inverted hollow pyramid
   // int n= 6;
