@@ -3,36 +3,60 @@ using namespace std;
 
 int main(){
 
+
+     //pattern
+     int n=4;
+    for(int row=0; row<n;row=row+1){
+      for(int col=0;col<2*row+1;col=col+1){
+        if(col%2==1){
+          cout<<"*";
+        }else{
+          cout<< row+1;
+        }
+      }
+      cout<<endl;
+    }
+    for(int row=0; row<n;row=row+1){
+      for(int col=0;col<n-2*row+1;col=col+1){
+        if(col%2==1){
+          cout<<"*";
+        }else{
+          cout<< n-2*row+1;
+        }
+      }
+      cout<<endl;
+    }
+
   //flipd solid diamond
-  int num =8;
-  int n=num/2;
+  // int num =8;
+  // int n=num/2;
 
-  for(int row =0; row<n;row=row+1){
-    for (int col=0; col< n-row;col=col+1){
-      cout<< "*";
-    }
-    for(int col=0; col<2*row+1;col=col+1){
-      cout<<" ";
-    }
-    for(int col=0;col<n-row;col=col+1){
-      cout<<"*";
-    }
-    cout<< endl;
-  }
-  for(int row =0; row<n;row=row+1){
-    for (int col=0; col<row+1;col=col+1){
-      cout<< "*";
-    }
+  // for(int row =0; row<n;row=row+1){
+  //   for (int col=0; col< n-row;col=col+1){
+  //     cout<< "*";
+  //   }
+  //   for(int col=0; col<2*row+1;col=col+1){
+  //     cout<<" ";
+  //   }
+  //   for(int col=0;col<n-row;col=col+1){
+  //     cout<<"*";
+  //   }
+  //   cout<< endl;
+  // }
+  // for(int row =0; row<n;row=row+1){
+  //   for (int col=0; col<row+1;col=col+1){
+  //     cout<< "*";
+  //   }
 
-    for(int col=0; col< 2*n-2*row-1;col=col+1){
-      cout<<" ";
-    }
+  //   for(int col=0; col< 2*n-2*row-1;col=col+1){
+  //     cout<<" ";
+  //   }
 
-    for(int col=0;col<row+1;col=col+1){
-      cout<<"*";
-    }
-    cout<< endl;
-  }
+  //   for(int col=0;col<row+1;col=col+1){
+  //     cout<<"*";
+  //   }
+  //   cout<< endl;
+  // }
   //hollow diamond
   // int n=6;
   // for(int row =0;row<n;row =row+1){
